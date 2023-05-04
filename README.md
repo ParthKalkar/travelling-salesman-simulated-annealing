@@ -18,6 +18,13 @@ The animation video can be found here
 https://user-images.githubusercontent.com/50231750/236313625-1f06b801-34a7-4377-85b4-7d7bcf68572a.mp4
 
 
+## Comparing Cooling Factors
+The graph shows the variation of the distance from the optimal solution over iterations at different cooling schedules with different cooling rates (alpha). The x-axis represents the iteration number, while the y-axis represents the distance from the optimal solution. The graph shows that the fast cooling schedule (alpha=0.66) converges the fastest, while the slow cooling schedule (alpha=0.99) converges the slowest. The medium cooling schedule (alpha=0.88) shows intermediate performance.
+
+Therefore, we can conclude that the cooling rate affects the convergence rate of simulated annealing, with a higher cooling rate leading to faster convergence but a higher chance of getting stuck in a local minimum, while a lower cooling rate leads to slower convergence but a lower chance of getting stuck in a local minimum.
+
+![image](https://user-images.githubusercontent.com/50231750/236314670-e232e8f1-4139-46f5-bb2c-7e0c0bc2f068.png)
+
 
 ## References
 The code is based on the algorithm described in the following paper:
