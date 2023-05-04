@@ -11,6 +11,14 @@ The code is written in Python 3 and requires the following dependencies: numpy, 
 For the data, we have used a dataset of Russian cities that contains their GPS location (longitude and latitude) and their population. The dataset is available
 at https://github.com/hflabs/city. To simplify the task we only take the top 30 cities in terms of population.
 
+## Animation
+The animation video can be found here 
+
+
+https://user-images.githubusercontent.com/50231750/236313625-1f06b801-34a7-4377-85b4-7d7bcf68572a.mp4
+
+
+
 ## References
 The code is based on the algorithm described in the following paper:
 
