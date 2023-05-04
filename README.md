@@ -7,6 +7,10 @@ Simulated Annealing is a metaheuristic optimization algorithm that mimics the an
 ## Usage
 The code is written in Python 3 and requires the following dependencies: numpy, matplotlib. To use the code, simply run the `code.ipynb` file with the desired parameters. The script will generate a random instance of the TSP with a given number of cities (default 30), solve it using SA with a specified cooling rate (default 0.99), and plot the distance vs temperature curve for three different cooling rates (fast, medium, slow). The final path and distance will also be printed to the console.
 
+## Dataset
+For the data, we have used a dataset of Russian cities that contains their GPS location (longitude and latitude) and their population. The dataset is available
+at https://github.com/hflabs/city. To simplify the task we only take the top 30 cities in terms of population.
+
 ## References
 The code is based on the algorithm described in the following paper:
 
