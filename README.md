@@ -25,6 +25,9 @@ Therefore, we can conclude that the cooling rate affects the convergence rate of
 
 ![image](https://user-images.githubusercontent.com/50231750/236314670-e232e8f1-4139-46f5-bb2c-7e0c0bc2f068.png)
 
+## Path during the execution of the algorithm
+![image](https://user-images.githubusercontent.com/50231750/236315560-be3296ad-ae4f-47e6-b953-862a19cebee9.png)
+
 
 ## References
 The code is based on the algorithm described in the following paper:
